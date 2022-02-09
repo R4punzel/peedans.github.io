@@ -16,6 +16,8 @@
 .collection-item-title{
   font-size: 20px;
   font-weight: 600;
+  padding: 24px;
+  border-radius: 8px;
 }
 
 .collection-item-one {
