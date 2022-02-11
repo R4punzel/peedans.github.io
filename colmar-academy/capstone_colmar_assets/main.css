@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    margin: 0px auto;
+    }
+
+
+
+.logo {
+    display: flex;
+    height: 20px;
+    justify-content: flex-start;
+  }
+  
+  
+  .navigation {
+    display:flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+  }
+  
+  .sticky-menu {
+    display  :flex ;
+    position :sticky;
+    top      :0;
+  }
+  
+  
+  .nav-list {
+    display:flex;
+  }
+  
+  .nav-item {
+    margin-left: 24px;
+  }
+
+
+
+
+  
