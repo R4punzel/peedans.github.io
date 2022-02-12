@@ -183,3 +183,12 @@ ul li {
 .sec3-item-image{
   width: 100%;
 }
+
+
+.vidoes-4{
+  width: 100%;
+}
+
+.sec4 {
+  flex-direction: column;
+}
