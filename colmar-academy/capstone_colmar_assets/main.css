@@ -1,14 +1,18 @@
 .container {
-  display: flex;
   width: 100%;
- }
+  margin: 0px auto;
+  }
 
+  .section {
+    margin-bottom: 64px;
+  }
+  
 nav {
   width: 100%;
-  background-color: darkgreen;
+  background-color: #ffffff;
   padding-left: 30px;
   padding-right: 10px;
-  display: flex;
+  display : flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -48,24 +52,26 @@ ul li {
 
 
 /* Section1 */
+.section-1{
+  background-color: #d8d8d8;
+  padding: 64px 0;
+}
 
-
-.banner { 
-  background-color: #1408085e;
-  display:flex;
+.learn-everyday{
+  display: flex;
 }
 
 .banner-content{
   align-items: center;
+  padding : 60px;
+  flex-direction: column;
 }
 
-.learn-everyday{
-  padding : 60px;
-}
 
 
 .pic1{
-  width: 60%;
+  width: 50%;
+  padding: 32px 24px; 
 }
 
 .text-2{
@@ -79,28 +85,101 @@ ul li {
 /* section-2 */
 
 .pic2{
-  width: 60%;
+  width: 100%;
+  display: flex;
 }
 
 .column {
   flex-direction: column;
 }
 
+.section-2{
+  display: flex;
+}
+
+.information{
+  flex-direction: column;
+  width:60%;
+  padding: 32px 24px;
+}
+
+.info-boxes{
+  width:40%;
+  padding: 32px 16px;
+}
+
+.sec2{
+  display: flex;
+}
+
+.sec2-item-image{
+  width: 50%;
+}
+
+.info-Orientation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-campus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-lecture{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: left;
+}
+
 
 /* section-3 */
 
-.course-boxes {
-
-  display: flex;
-  justify-content: space-between;
+.section-3{
+  background-color: #d8d8d8;
+  padding: 64px 0;
 }
 
-.course-boxes-1{
-  display: flex;
-  justify-content: space-between;
-}
 
 .heading{
   font-size: 60px;
-  
+  justify-content: center;
+}
+
+.course{
+  display: flex;
+  justify-content: space-between;
+}
+
+.course{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-item{
+  width: calc(100% / 3);
+  margin-bottom: 16px;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  position:relative
+}
+
+.sec3-1{
+  font-size: 24px;
+}
+
+.sec3-2{
+  font-size: 16px;
+}
+
+.sec3-3{
+  font-size: 14px;
+}
+
+.sec3-item-image{
+  width: 100%;
 }
