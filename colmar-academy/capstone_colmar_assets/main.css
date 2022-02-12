@@ -1,40 +1,106 @@
 .container {
-    width: 100%;
-    margin: 0px auto;
-    }
+  display: flex;
+  width: 100%;
+ }
 
-
+nav {
+  width: 100%;
+  background-color: darkgreen;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .logo {
-    display: flex;
-    height: 20px;
-    justify-content: flex-start;
-  }
-  
-  
-  .navigation {
-    display:flex;
-    justify-content: space-between;
-    height: 72px;
-    align-items: center;
-  }
-  
-  .sticky-menu {
-    display  :flex ;
-    position :sticky;
-    top      :0;
-  }
-  
-  
-  .nav-list {
-    display:flex;
-  }
-  
-  .nav-item {
-    margin-left: 24px;
-  }
+  display: inline-block;
+  padding: 24px;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+
+a{
+  display:flex;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  padding: 0 10px;
+}
+
+
+.text-1{
+  font-size: 32px;
+}
+
+ul{
+  display: flex;
+  padding: 0 24px;
+}
+
+ul li {
+  padding:16px;
+}
 
 
 
+/* Section1 */
 
+
+.banner { 
+  background-color: #1408085e;
+  display:flex;
+}
+
+.banner-content{
+  align-items: center;
+}
+
+.learn-everyday{
+  padding : 60px;
+}
+
+
+.pic1{
+  width: 60%;
+}
+
+.text-2{
+  font-size: 32px;
+}
+
+.text-3{
+  font-size: 20px;
+}
+
+/* section-2 */
+
+.pic2{
+  width: 60%;
+}
+
+.column {
+  flex-direction: column;
+}
+
+
+/* section-3 */
+
+.course-boxes {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-boxes-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading{
+  font-size: 60px;
   
+}
