@@ -8,7 +8,7 @@
   }
   
 nav {
-  width: 100%;
+  width: 95%;
   background-color: #ffffff;
   padding-left: 30px;
   padding-right: 10px;
@@ -54,7 +54,7 @@ ul li {
 /* Section1 */
 .section-1{
   background-color: #d8d8d8;
-  padding: 64px 0;
+  padding: 32px 24px; 
 }
 
 .learn-everyday{
@@ -70,16 +70,24 @@ ul li {
 
 
 .pic1{
-  width: 50%;
-  padding: 32px 24px; 
+  width: 60%;
 }
 
 .text-2{
-  font-size: 32px;
+  font-size: 40px;
+  padding : 20px;
 }
 
 .text-3{
   font-size: 20px;
+  padding : 20px;
+
+}
+
+.start{
+  background-color: gray;
+  padding :16Px 5px;
+  justify-content: center;
 }
 
 /* section-2 */
@@ -95,17 +103,16 @@ ul li {
 
 .section-2{
   display: flex;
+  padding: 32px 24px;
 }
 
 .information{
   flex-direction: column;
   width:60%;
-  padding: 32px 24px;
 }
 
 .info-boxes{
   width:40%;
-  padding: 32px 16px;
 }
 
 .sec2{
@@ -132,7 +139,11 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: left;
+}
+
+.sec2-text-1{
+  font-size: 32px;
+  margin:32PX 0px 24Px 0px;
 }
 
 
