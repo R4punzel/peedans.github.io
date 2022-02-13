@@ -93,7 +93,6 @@ ul li {
 /* section-2 */
 
 .pic2{
-  width: 100%;
   display: flex;
 }
 
@@ -112,7 +111,8 @@ ul li {
 }
 
 .info-boxes{
-  width:40%;
+  width: 40%;
+  padding: 0Px 16px 0Px 16Px;
 }
 
 .sec2{
@@ -120,13 +120,15 @@ ul li {
 }
 
 .sec2-item-image{
-  width: 50%;
+  width:50%;
+  
 }
 
 .info-Orientation{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0Px 16Px;
 }
 
 .info-campus{
@@ -147,11 +149,35 @@ ul li {
 }
 
 
+.sec2-text-2{
+  font-size: 20px;
+  margin:32PX 0px 24Px 0px;
+}
+
+.info-lecture{
+  background-color: #d8d8d8;
+}
+
+.sec2-text-3{
+  font-size: 15px;
+  padding: 10px;
+}
+
+.sec2-text-4{
+  font-size: 20px;
+}
+
+.sec2-text-5{
+  padding: 16PX 0px;
+}
+
+
+
 /* section-3 */
 
 .section-3{
   background-color: #d8d8d8;
-  padding: 64px 0;
+  padding: 32px 0;
 }
 
 
@@ -162,19 +188,15 @@ ul li {
 
 .course{
   display: flex;
-  justify-content: space-between;
-}
-
-.course{
-  display: flex;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .course-item{
+  background-color: #ffffff;
   width: calc(100% / 3);
-  margin-bottom: 16px;
-  padding: 0px 20px;
+  padding: 0Px 16Px 10Px 0Px;
   box-sizing: border-box;
   position:relative
 }
@@ -195,6 +217,15 @@ ul li {
   width: 100%;
 }
 
+/* .course-item-1{
+  padding: 20%px;
+} */
+
+/* section-4 */
+.section-4{
+  padding: 32px 24px ;
+}
+
 
 .vidoes-4{
   width: 100%;
@@ -202,4 +233,85 @@ ul li {
 
 .sec4 {
   flex-direction: column;
+  display: flex;
+  width: 40%;
+  padding: 0px 16px;
+}
+
+.sec4-1{
+  width: 60%;
+  padding:0px 24px 24px 24px;
+}
+
+
+.sec3-text{
+  font-size: 50px;
+  padding: 0px 0Px 32px 0px;
+  justify-content: center;
+  display: flex;
+}
+
+.sec4-text-1{
+  display: flex;
+  padding: 16px 16px;
+  margin-left: 0px;
+  background-color: #d8d8d8;
+}
+
+.image-sec4-1{
+  width: 50%;
+}
+
+.sec4-text-3{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head{
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+  padding: 0PX 0PX 32PX 0PX;
+}
+
+.sec4-text-3{
+  font-size: 30px;
+  display: flex;
+  padding: 16px 16px;
+}
+
+.sec4-text-2{
+  display: flex;
+  padding: 16px 16px;
+}
+
+.sec4-text-4{
+  font-size: 30px;
+  padding: 24px 0Px 8px 0px;
+}
+
+.sec4-text-5{
+  font-size: 20px;
+
+}
+
+.sec4-text-6{
+  font-size: 20px;
+  padding: 16px 0px;
+}
+
+.sec4-text-7{
+  font-size: 15px;
+}
+
+.sec4-text-8{
+  justify-content: flex-start;
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+.sec4-text-9{
+  font-size: 15px;
 }
