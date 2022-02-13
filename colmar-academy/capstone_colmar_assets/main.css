@@ -194,7 +194,7 @@ ul li {
 }
 
 .course-item{
-  background-color: #ffffff;
+  background-color: #d8d8d8;
   width: calc(100% / 3);
   padding: 0Px 16Px 10Px 0Px;
   box-sizing: border-box;
@@ -206,20 +206,22 @@ ul li {
 }
 
 .sec3-2{
-  font-size: 16px;
+  font-size: 18px;
+  padding: 10Px 0Px 0Px 0Px;
 }
 
 .sec3-3{
-  font-size: 14px;
+  font-size: 16px;
+  padding: 5Px 0Px 32Px 0Px;
 }
 
 .sec3-item-image{
-  width: 100%;
+  font-size: 18px;
+  width: calc(100%);
+  margin-bottom: 16px;
+  border-radius: 18px;
 }
 
-/* .course-item-1{
-  padding: 20%px;
-} */
 
 /* section-4 */
 .section-4{
@@ -240,7 +242,7 @@ ul li {
 
 .sec4-1{
   width: 60%;
-  padding:0px 24px 24px 24px;
+  padding:0px 24px 24px 0px;
 }
 
 
@@ -259,14 +261,14 @@ ul li {
 }
 
 .image-sec4-1{
-  width: 50%;
+  width: 45%;
+
 }
 
 .sec4-text-3{
   flex-direction: column;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .head{
@@ -314,4 +316,28 @@ ul li {
 
 .sec4-text-9{
   font-size: 15px;
+}
+
+.sec4-2{
+  padding: 0px 0px 0px 0px;
+}
+
+/* footer */
+
+.footer{
+  display: flex;
+  justify-content:space-between;
+}
+
+.links{
+  display: flex;
+  padding: 0px 24px;
+}
+
+.links1{
+  padding: 0px 10px;
+}
+
+.copyright1{
+  padding: 0px 24px;
 }
